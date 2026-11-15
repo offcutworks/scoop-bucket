@@ -1,0 +1,29 @@
+{
+    "version": "2026.11.1",
+    "description": "Shows several Claude subscription accounts' 5-hour and weekly limits, records their use, and switches the Claude desktop app and Claude Code between them.",
+    "homepage": "https://github.com/offcutworks/windowtally",
+    "license": "MIT",
+    "notes": [
+        "WindowTally is unpacked but not set up. Set it up from Windows PowerShell:",
+        "powershell -NoProfile -ExecutionPolicy Bypass -File \"$dir\\install.ps1\" -Mode Install",
+        "After scoop update, run the same command again: it replaces the installed copy and keeps your data.",
+        "Before scoop uninstall, run it with -Mode Uninstall, then the account sync's UninstallWatcher mode, as README.md says."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/offcutworks/windowtally/releases/download/2026.11.1/WindowTally-2026.11.1.zip",
+            "hash": "2252bdc51caa67bb43ffbc6c31d45e5b02f6b6ffd4367a0283f51a0001b8d735"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/offcutworks/windowtally/releases/download/$version/WindowTally-$version.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
