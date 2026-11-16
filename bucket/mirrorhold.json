@@ -1,5 +1,5 @@
 {
-    "version": "2026.11.1",
+    "version": "2026.11.2",
     "description": "One-way backups of folders and drives onto backup drives or a cloud store, with holds against copying a disaster.",
     "homepage": "https://github.com/offcutworks/mirrorhold",
     "license": "MIT",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/offcutworks/mirrorhold/releases/download/2026.11.1/MirrorHold-2026.11.1.zip",
-            "hash": "086e7de71f6b755e6a1095b015ce61cd6237004070428cd51f9920b6bafd7d39"
+            "url": "https://github.com/offcutworks/mirrorhold/releases/download/2026.11.2/MirrorHold-2026.11.2.zip",
+            "hash": "d6ae57e15ec801cc2cd2f0a97e799ec9652b46530473ba9219100a2fedb9bedb"
         }
     },
     "shortcuts": [
